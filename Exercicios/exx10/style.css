@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+@font-face{
+    font-family: luxo;
+    src: url(fontes/Luxoorea.otf); format('opentype');
+    font-weight: normal;
+}
+
+
+:root{      
+      --cor0: #171718;      ;
+      --cor1: #262729;
+      --cor2: #36383b;
+      --cor3: #4c4f52;
+      --cor4: #686b6f;
+      --cor5: #86898d;
+      --cor6: #a5a8ac;
+      --cor7: #f8f8f8;
+
+      --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+      --fonte-destaque: 'Bebas Neue', 'Bebas Neue', cursiva;
+      --fonte-luxo: 'luxo', cursiva;
+}
+
+*{
+    margin: 50%;
+    padding: 50%;
+}
+
+
+body {
+    background-color: var(--cor7);
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+body h1{
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent:50px;
+    line-height: 1.3em;
+    font-size: 1em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+header h1{
+    color: var(--cor7);
+    font-family: var(--fonte-luxo);    
+    font-size: 3em;    
+    text-shadow: 2px 2px 0px rgba(226, 223, 223, 0.445);
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 13px;
+    box-shadow:  0px 7px 9px rgba(90, 88, 88, 0.479)
+}
+
+
+nav a{
+    color: var(--cor7);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3%;
+    transition-duration:.4s;
+}
+
+nav a:hover{
+    background-color: var(--cor6)
+}
+
+
+header p{
+    color:var(--cor7);
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 60%;
+}
+
+main img{
+    width: 100%%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px gray;
+}
+
+main strong{
+    color: var(--cor1);
+    font-family: bold;
+    background-color: var(--cor7);
+    padding: 1px 5px;
+    font-size: 1.2em;
+}
+
+main a{
+    color: var(--cor3);
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-decoration-color:var(--cor5)
+    padding: 2px 2px;
+    transition-duration:.4s;
+
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: rgb(238, 145, 108);
+    text-shadow: 5px #171718;
+}
+
+main{
+    background-color: #f8f8f8;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px gray;
+}
+
+body h2{
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+    background-image: linear-gradient(to right, var(--cor7), var(--cor6));
+}
+
+footer{
+    background-color: var(--cor1);
+    color:var(--cor7)
+}
