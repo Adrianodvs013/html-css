@@ -10,7 +10,28 @@ h1 {
     color: rgb(3, 66, 121);
 }
 
-h2 {
-    color: rgb(11, 104, 8);
+/*Em Html é id= em CSS é  # (usar somente uma vez por pagina)
+  em Html é Class= em CSS é . (podemos ter varios elemento scom a msm classe)*/
+
+h1#principal{
+    color: #e2e609;
 }
 
+h2 {
+    color: #7a39e2;
+}
+
+.basico {
+    color: #162be7;
+}
+
+.intermediario {
+    color: #0a9644;
+}
+
+.avançado {
+    color: #db0b0b;
+}
+.destaque {
+    background-color: #eb6bc081;
+}
