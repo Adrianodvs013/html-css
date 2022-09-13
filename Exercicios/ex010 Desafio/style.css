@@ -29,6 +29,23 @@
     padding: 0%;
 }
 
+.conteudo{
+     display: inline-table;
+}
+
+.imagem{
+    display: table-cell;
+    width: 40%;
+}
+
+.texto{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+}
+
+
 
 body {
     background-color: var(--cor3);
@@ -49,13 +66,7 @@ p {
     font-size: 1em;
 }
 
-header {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
-    min-height: 150px;
-    padding-top: 40px;
-    text-align: center;
-    font-family: var(--fonte-destaque);
-}
+
 
 header h1{
     color: var(--cor7);
